@@ -1,7 +1,7 @@
 name: Deploy CDK
 #  BEWARE THIS LAUNCHES MACHINES ON AWS - expose the push to do so
 on:
-  #push:
+  push:
     branches:
       - master
   pull_request:
